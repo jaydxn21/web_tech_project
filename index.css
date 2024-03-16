@@ -25,3 +25,11 @@ nav {
   .nav-links {
     display: flex;
   }
+  .nav-links a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgba(1, 47, 69, 0.867);
+  }
+
+  .background_image{
+    width: 30px;
+  }
