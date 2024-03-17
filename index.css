@@ -38,8 +38,13 @@ nav {
     background-image: url(/Users/nimoyburrowes/Documents/web_tech_project/befunky_2024-2-6_21-42-31.png);
   } */
   body{
-    background-image: url(/Users/nimoyburrowes/Documents/web_tech_project/befunky_2024-2-6_21-42-31.png);
-  }
+margin: 0;    }
+
+    .background{
+        background-image: url(/Users/nimoyburrowes/Documents/web_tech_project/befunky_2024-2-6_21-42-31.png);
+ width: 100vw;
+ height: 100vh;
+ }
 
 
   .main_text{
