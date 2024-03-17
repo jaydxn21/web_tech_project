@@ -1,7 +1,7 @@
 /* color links */
 .nav-links a{
     float: left;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -18,6 +18,9 @@ nav {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
   }
+  nav a.active{
+    color: white;
+  }
 
   .nav-links li {
     list-style: none;
@@ -30,6 +33,20 @@ nav {
     color: rgba(1, 47, 69, 0.867);
   }
 
-  .background_image{
-    width: 30px;
+  /* .background_image{
+    width: 50%;
+    background-image: url(/Users/nimoyburrowes/Documents/web_tech_project/befunky_2024-2-6_21-42-31.png);
+  } */
+  body{
+    background-image: url(/Users/nimoyburrowes/Documents/web_tech_project/befunky_2024-2-6_21-42-31.png);
+  }
+
+
+  .main_text{
+    color: white;
+    font-weight: bolder;
+    align-items: center;
+    padding-left: 32%;
+    padding-top: 5%;
+    font-size: larger;
   }
