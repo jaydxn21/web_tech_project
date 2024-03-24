@@ -11,11 +11,14 @@ body{
 .banner {
     width:100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/victor-freitas-WvDYdXDzkhs-unsplash.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(images/victor-freitas-WvDYdXDzkhs-unsplash.jpg);
     background-size: cover;
     background-position:bottom;
     margin: 0;
+  
 }
+
+
 .Navbar{
 
     width: 85%;
@@ -106,20 +109,26 @@ cursor: pointer;
     display: block;
 }
 
-section{
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/Personal\ trainer\ certified.png);
+.banner1{
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(images/Personal\ trainer\ certified.png);
     width:100%;
     height: 100vh;
+    padding:100px 0;
     background-size: cover;
-    background-position:bottom;
+    margin:0 ; 
 }
 
+
+section h2{
+    
+   
+}
 
 .transparent-box{
     background-color:rgba(60, 60, 60, 0.5);
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0 0 6px rgba(0, 64, 128, 0.542); 
+    box-shadow: 0 0 6px rgba(0, 64, 128, 0.817); 
     width:500px;
     height:400px;
     margin: 0 auto;
