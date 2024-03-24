@@ -1,9 +1,9 @@
 
 body{
     margin:0 ;
-    background: grey;
     font-family: poppins;
     text-decoration: none;
+    padding: 0;
     
    
 }
@@ -13,7 +13,8 @@ body{
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/victor-freitas-WvDYdXDzkhs-unsplash.jpg);
     background-size: cover;
-    background-position:center;
+    background-position:bottom;
+    margin: 0;
 }
 .Navbar{
 
@@ -105,14 +106,13 @@ cursor: pointer;
     display: block;
 }
 
-.section1{
+section{
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/Personal\ trainer\ certified.png);
     width:100%;
     height: 100vh;
     background-size: cover;
-    background-position:center;
+    background-position:bottom;
 }
-
 
 
 .transparent-box{
