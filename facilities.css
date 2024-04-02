@@ -100,7 +100,7 @@ article {
   position: relative;
   border-radius: 16px;
   box-shadow: none;
-  background: rgba(60, 60, 60, 0.5);
+  background: rgba(223, 223, 223, 0.811);
   transform-origin: center;
   transition: all 0.4s ease-in-out;
   overflow: hidden;
