@@ -85,26 +85,58 @@ html {
 
 .background {
   background-image: url(images/Group\ fitness\ studio.jpg);
-  height: 100%;
+  /* height: 100%; */
   background-position: center;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
-.trans-box1 {
-  background-color: rgba(60, 60, 60, 0.5);
-  padding: 30px;
-  border-radius: 20px;
-  box-shadow: 0 0 6px rgba(0, 64, 128, 0.817);
-  width: 500px;
-  height: 400px;
-  margin: 0 auto;
-  position: absolute;
-  left: 100px;
-  /* top: 905px; */
+article {
+  --img-scale: 1.001;
+  --title-color: black;
+  --link-icon-translate: -20px;
+  --link-icon-opacity: 0;
+  position: relative;
+  border-radius: 16px;
+  box-shadow: none;
+  background: rgba(60, 60, 60, 0.5);
+  transform-origin: center;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
 }
 
-.cardio {
-  width: 500px;
+article h2 {
+  margin: 0 0 18px 0;
+  font-family: poppins;
+  font-size: 1.5rem;
+  color: var(--title-color);
+  transition: color 0.3s ease-out;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+}
+
+article img {
+  max-width: 100%;
+  transform-origin: center;
+  transform: scale(var(--img-scale));
+  transition: tranform 0.4s ease-in-out;
+}
+
+.article-body {
+  padding: 24px;
+}
+
+.articles {
+  display: grid;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
 }
