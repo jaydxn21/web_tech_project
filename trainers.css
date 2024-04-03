@@ -1,0 +1,150 @@
+.nav-links a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: poppins;
+  text-decoration: none;
+}
+nav a.active {
+  color: white;
+}
+
+.nav-links li {
+  list-style: none;
+}
+.nav-links {
+  display: flex;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffba3c;
+  text-decoration-thickness: 2px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 2%;
+}
+
+.logo_img {
+  width: 60px;
+  height: 60px;
+}
+
+.login {
+  color: white;
+  padding: 9px 25px;
+  background-color: #004080;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.login:hover {
+  background-color: #047ffa;
+}
+
+.logo_text {
+  font-family: poppins;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  align-items: center;
+  text-decoration: none;
+  cursor: default;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url(images/side-view-smiley-people-training-gym.jpg);
+  height: max-content;
+  background-position: center;
+  background-size: cover;
+}
+
+/* .background {
+  background-image: url(images/side-view-smiley-people-training-gym.jpg);
+  height: max-content;
+  background-position: center;
+  background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed; 
+} */
+
+article {
+  --img-scale: 1.001;
+  --title-color: black;
+  --link-icon-translate: -20px;
+  --link-icon-opacity: 0;
+  position: relative;
+  border-radius: 16px;
+  box-shadow: none;
+  background: rgba(223, 223, 223, 0.811);
+  transform-origin: center;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+}
+
+article h2 {
+  margin: 0 0 18px 0;
+  font-family: poppins;
+  font-size: 1.5rem;
+  color: var(--title-color);
+  transition: color 0.3s ease-out;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+}
+
+article img {
+  max-width: 100%;
+  transform-origin: center;
+  transform: scale(var(--img-scale));
+  transition: tranform 0.4s ease-in-out;
+}
+
+.article-body {
+  padding: 24px;
+}
+
+.articles {
+  display: grid;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 24px;
+  padding-top: 5%;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+}
