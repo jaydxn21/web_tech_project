@@ -180,6 +180,7 @@ header {
   margin-left: 720px;
   position: relative;
   top: -50px;
+  cursor: pointer;
 }
 .meet-trainers:hover{
   background-color: #FFBA3C;
@@ -248,6 +249,7 @@ header {
   margin-left: 520px;
   position: relative;
   top: -50px;
+  cursor: pointer;
 }
 .explore-classes:hover {
   background-color: #FFBA3C;
@@ -303,6 +305,7 @@ header {
   margin-left: 720px;
   position: relative;
   top: -50px;
+  cursor: pointer;
 
   
 }
