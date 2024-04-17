@@ -1,3 +1,5 @@
+/* color links */
+
 .nav-links a {
   float: left;
   color: white;
@@ -77,12 +79,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 2%;
+  padding: 15px 5%;
 }
 
 .logo_img {
-  width: 60px;
-  height: 60px;
+  width:  80px;
+  height: 80px;
 }
 
 .login {
@@ -114,43 +116,7 @@ header {
   display: flex;
   align-items: center;
   text-decoration: none;
-}
 
-body {
-  margin: 0;
-}
-
-body,
-html {
-  height: 100%;
-}
-
-.background {
-  background-image: url(images/homebg.png);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.main_text h1 {
-  font-family: poppins;
-  color: white;
-  font-weight: 800px;
-  font-size: 80px;
-  margin-top: 150px;
-  margin-bottom: 0;
-  text-align: center;
-}
-
-.main_text h2 {
-  font-size: x-large;
-  font-family: poppins;
-  margin: 20 auto;
-  font-weight: 150px;
-  line-height: 3px;
-  color: #ffba3c;
-  text-align: center;
 }
 
 /*SECTION ONE */
@@ -158,18 +124,14 @@ html {
 .banner1{
   background-image: linear-gradient(rgba(0,0,0,0.100),rgba(0,0,0,0.50)),url(images/Personal\ trainer\ certified.png);
   width:100%;
-.banner1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(images/Personal\ trainer\ certified.png);
-  width: 100%;
   height: 85vh;
-  padding: 60px 0;
+  padding:60px 0;
   background-size: cover;
-  margin: 0;
+  margin:0 ; 
 }
 
-.transparent-box {
-  background-color: rgba(60, 60, 60, 0.5);
+.transparent-box{
+  background-color:rgba(60, 60, 60, 0.5);
   padding: 30px;
   border-radius: 20px;
   box-shadow: 0 0 6px rgba(0, 64, 128, 0.817); 
@@ -180,7 +142,8 @@ html {
   transform: translateX(-60%);
 }
 
-.transparent-box p {
+.transparent-box p{
+
   font-size: 15px;
   line-height: 1.5;
   color: white;
@@ -188,17 +151,18 @@ html {
   font-family: poppins;
 }
 
-.banner1 h2 {
+.banner1 h2{
   font-family: poppins;
   text-align: center;
   color: white;
   margin-top: -60px;
   background-color: rgba(0, 0, 0, 0.3);
   padding: 30px;
+  
 }
-.banner1 h2 a {
+.banner1 h2 a{
   text-decoration: none;
-  cursor: default;
+  cursor: default; 
 }
 
 /*button*/
@@ -208,7 +172,7 @@ html {
   font-weight: bold;
   display: inline-block;
   padding: 10px 30px;
-  border: 2px solid #ffba3c;
+  border: 2px solid #FFBA3C;
   border-radius: 20px;
   text-decoration: none;
   color: white;
@@ -218,8 +182,6 @@ html {
   top: -50px;
 }
 
- 
-
 
 /* SECTION TWO */
 
@@ -227,13 +189,13 @@ html {
   background-image: linear-gradient(rgba(0,0,0,0.100),rgba(0,0,0,0.100)),url(images/Fitness\ classes.jpeg);
   width:100%;
   height: 85vh;
-  padding: 60px 0;
+  padding:60px 0;
   background-size: cover;
-  margin: 0;
+  margin:0 ; 
 }
 
-.transparent-box2 {
-  background-color: rgba(60, 60, 60, 0.5);
+.transparent-box2{
+  background-color:rgba(60, 60, 60, 0.5);
   padding: 30px;
   border-radius: 20px;
   box-shadow: 0 0 6px rgba(0, 64, 128, 0.817); 
@@ -245,7 +207,8 @@ html {
   
 }
 
-.transparent-box2 p {
+.transparent-box2 p{
+  
   font-size: 15px;
   line-height: 1.5;
   color: white;
@@ -253,7 +216,7 @@ html {
   font-family: poppins;
 }
 
-.banner2 h2 {
+.banner2 h2{
   font-family: poppins;
   text-align: center;
   color: white;
@@ -262,9 +225,9 @@ html {
   padding: 30px;
 }
 
-.banner2 h2 a {
+.banner2 h2 a{
   text-decoration: none;
-  cursor: default;
+  cursor: default; 
 }
 
 /*buttons*/
@@ -275,7 +238,7 @@ html {
   font-weight: bold;
   display: inline-block;
   padding: 10px 30px;
-  border: 2px solid #ffba3c;
+  border: 2px solid #FFBA3C;
   border-radius: 20px;
   text-decoration: none;
   color: white;
@@ -293,13 +256,13 @@ html {
   background-image: linear-gradient(rgba(0,0,0,0.100),rgba(0,0,0,0.100)),url(images/Gym-Facilities.jpg);
   width:100%;
   height: 85vh;
-  padding: 60px 0;
+  padding:60px 0;
   background-size: cover;
-  margin: 0;
+  margin:0 ; 
 }
 
-.transparent-box3 {
-  background-color: rgba(60, 60, 60, 0.5);
+.transparent-box3{
+  background-color:rgba(60, 60, 60, 0.5);
   padding: 30px;
   border-radius: 20px;
   box-shadow: 0 0 6px rgba(0, 64, 128, 0.817); 
@@ -311,7 +274,8 @@ html {
   
 }
 
-.transparent-box3 p {
+.transparent-box3 p{
+  
   font-size: 15px;
   line-height: 1.5;
   color: white;
@@ -319,12 +283,14 @@ html {
   font-family: poppins;
 }
 
-.explore-facilities {
+
+.explore-facilities{
+
   font-family: poppins;
   font-weight: bold;
   display: inline-block;
   padding: 10px 30px;
-  border: 2px solid #ffba3c;
+  border: 2px solid #FFBA3C;
   border-radius: 20px;
   text-decoration: none;
   color: white;
@@ -336,7 +302,7 @@ html {
   
 }
 
-.banner3 h2 {
+.banner3 h2{
   font-family: poppins;
   text-align: center;
   color: white;
@@ -345,10 +311,8 @@ html {
   padding: 30px;
 }
 
-.banner3 h2 a {
+.banner3 h2 a{
   text-decoration: none;
-  cursor: default;
+  cursor: default; 
 }
 
-
-}
