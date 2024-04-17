@@ -79,12 +79,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 5%;
+  padding: 15px 2%;
 }
 
 .logo_img {
-  width:  80px;
-  height: 80px;
+  width:  60px;
+  height: 60px;
 }
 
 .login {
