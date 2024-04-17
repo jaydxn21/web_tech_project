@@ -60,6 +60,7 @@ body,html {
   margin-top: 150px;
   margin-bottom: 0;
   text-align: center;
+  text-decoration: none;
  
 }
 
@@ -116,7 +117,7 @@ header {
   align-items: center;
 }
 
-/* section 1 */
+/*SECTION ONE */
 
 .banner1{
   background-image: linear-gradient(rgba(0,0,0,0.100),rgba(0,0,0,0.50)),url(images/Personal\ trainer\ certified.png);
@@ -133,11 +134,10 @@ header {
   border-radius: 20px;
   box-shadow: 0 0 6px rgba(0, 64, 128, 0.817); 
   width:500px;
-  height:400px;
-  margin: 0 auto;
-  position: absolute;
-  left: 100px;
-  top: 860px;
+  height:440px;
+  margin:8.5vh auto 0;
+  left: 50;
+  transform: translateX(-60%);
 }
 
 .transparent-box p{
@@ -163,8 +163,9 @@ header {
   cursor: default; 
 }
 
+/*button*/
+
 .meet-trainers{
-  
   font-family: poppins;
   font-weight: bold;
   display: inline-block;
@@ -174,11 +175,15 @@ header {
   text-decoration: none;
   color: white;
   background-color:transparent;
-  margin-top: 450px; 
-  margin-left: 700px;
+  margin-left: 720px;
+  position: relative;
+  top: -50px;
 }
 
-/* section 2 */
+ 
+
+
+/* SECTION TWO */
 
 .banner2{
   background-image: linear-gradient(rgba(0,0,0,0.100),rgba(0,0,0,0.100)),url(images/Fitness\ classes.jpeg);
@@ -196,10 +201,10 @@ header {
   box-shadow: 0 0 6px rgba(0, 64, 128, 0.817); 
   width:500px;
   height: 440px;
-  margin: 0 auto;
-  position: absolute;
-  left: 750px;
-  top: 900;
+  margin:8.5vh auto 0;
+  right: 0;
+  transform: translateX(60%);
+  
 }
 
 .transparent-box2 p{
@@ -225,6 +230,8 @@ header {
   cursor: default; 
 }
 
+/*buttons*/
+
 .explore-classes{
 
   font-family: poppins;
@@ -236,11 +243,13 @@ header {
   text-decoration: none;
   color: white;
   background-color:transparent;
-  margin-top: 500px; 
-  margin-left: 500px;
+  margin-left: 520px;
+  position: relative;
+  top: -50px;
 }
 
-/*section 3 */
+
+/*SECTION THREE */
 
 .banner3{
 
@@ -258,10 +267,10 @@ header {
   border-radius: 20px;
   box-shadow: 0 0 6px rgba(0, 64, 128, 0.817); 
   width:500px;
-  height:430px;
-  margin: 0 auto;
-  position: absolute;
-  left: 100px;
+  height:440px;
+  margin:8.5vh auto 0;
+  left: 50;
+  transform: translateX(-60%);
   
 }
 
@@ -286,9 +295,11 @@ header {
   text-decoration: none;
   color: white;
   background-color:transparent;
-  margin-top:500px; 
-  margin-left: 700px;
+  margin-left: 720px;
+  position: relative;
+  top: -50px;
 
+  
 }
 
 .banner3 h2{
@@ -304,3 +315,5 @@ header {
   text-decoration: none;
   cursor: default; 
 }
+
+
