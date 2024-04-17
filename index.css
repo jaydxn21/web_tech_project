@@ -122,7 +122,7 @@ header {
 /*SECTION ONE */
 
 .banner1{
-  background-image: linear-gradient(rgba(0,0,0,0.100),rgba(0,0,0,0.50)),url(images/Personal\ trainer\ certified.png);
+  background-image: linear-gradient(rgba(0,0,0,0.100),rgba(0,0,0,0.50)),url(images/smiley-women-working-treadmill_23-2148419891.jpg);
   width:100%;
   height: 85vh;
   padding:60px 0;
@@ -165,7 +165,7 @@ header {
   cursor: default; 
 }
 
-/*button*/
+/*BUTTON*/
 
 .meet-trainers{
   font-family: poppins;
@@ -181,12 +181,14 @@ header {
   position: relative;
   top: -50px;
 }
-
+.meet-trainers:hover{
+  background-color: #FFBA3C;
+}
 
 /* SECTION TWO */
 
 .banner2{
-  background-image: linear-gradient(rgba(0,0,0,0.100),rgba(0,0,0,0.100)),url(images/Fitness\ classes.jpeg);
+  background-image: linear-gradient(rgba(0,0,0,0.100),rgba(0,0,0,0.100)),url(images/young-sports-people-training-morning-gym_1157-32102.jpg);
   width:100%;
   height: 85vh;
   padding:60px 0;
@@ -230,7 +232,7 @@ header {
   cursor: default; 
 }
 
-/*buttons*/
+/*BUTTONS*/
 
 .explore-classes{
 
@@ -247,13 +249,16 @@ header {
   position: relative;
   top: -50px;
 }
+.explore-classes:hover {
+  background-color: #FFBA3C;
+}
 
 
 /*SECTION THREE */
 
 .banner3{
 
-  background-image: linear-gradient(rgba(0,0,0,0.100),rgba(0,0,0,0.100)),url(images/Gym-Facilities.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.100),rgba(0,0,0,0.100)),url(images/exercise-machines-gym-without-people_637285-8444.jpg);
   width:100%;
   height: 78vh;
   padding:60px 0;
@@ -283,7 +288,7 @@ header {
   font-family: poppins;
 }
 
-
+/*BUTTON*/
 .explore-facilities{
 
   font-family: poppins;
@@ -300,6 +305,10 @@ header {
   top: -50px;
 
   
+}
+
+.explore-facilities:hover {
+  background-color: #FFBA3C;
 }
 
 .banner3 h2{
