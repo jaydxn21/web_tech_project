@@ -119,6 +119,50 @@ header {
 
 }
 
+/*SCROLLDOWN BUTTON */
+.scroll-down{
+  height:40px;
+  width:50px;
+  border: 2.5px solid white;
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  border-radius: 200px;
+  cursor: pointer;
+}
+.scroll-down::before,.scroll-down::after{
+  content: '';
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  border: 2px solid #FFBA3C;
+  height: 15px;
+  width:15px;
+  transform: translate(-50%,-98%) rotate(45deg);
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-down 1s ease-in-out infinite;
+}
+.scroll-down::after{
+  top: 30%;
+  animation-delay:.3s;
+}
+
+@keyframes scroll-down{
+
+ 0%{opacity: 0;
+}
+  30%{
+    opacity: 1;
+  }
+  60%{opacity: 1;
+  }
+100%{opacity:0;
+  top: 90%;
+}
+}
+ 
+
 /*SECTION ONE */
 
 .banner1{
