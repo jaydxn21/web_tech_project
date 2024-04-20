@@ -113,6 +113,7 @@ article h2 {
   font-size: 1.5rem;
   color: var(--title-color);
   transition: color 0.3s ease-out;
+  text-align: center;
 }
 
 figure {
@@ -131,6 +132,7 @@ article img {
 
 .article-body {
   padding: 24px;
+ 
 }
 
 .articles {
