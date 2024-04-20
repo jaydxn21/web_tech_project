@@ -104,6 +104,7 @@ article {
   transform-origin: center;
   transition: all 0.4s ease-in-out;
   overflow: hidden;
+  font-family: poppins;
 }
 
 article h2 {
