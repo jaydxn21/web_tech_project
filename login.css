@@ -146,6 +146,24 @@ input{
     background: transparent;
     border: 0;
     outline: 0;
-    padding: 20px;
+    padding: 20px; 
 }
 
+.input-field i{
+    margin-left: 15px;
+    color: grey;
+}
+
+form p{
+    text-align:right;
+    font-size: 13px;
+    font-family: poppins;
+    font-weight: 400;
+}
+
+form p a{
+    text-decoration: none;
+    color: #f5a91e;
+    font-weight: 500;
+
+}
