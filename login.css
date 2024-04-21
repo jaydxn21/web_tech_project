@@ -139,6 +139,9 @@ position: relative;
     border-radius: 5px;
     display: flex;
     align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow:hidden;
 }
 
 input{

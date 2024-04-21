@@ -27,10 +27,10 @@
 </header>
 
 <div class="form-box">
-<h1>Sign Up</h1>
+<h1 id="title">Sign Up</h1>
 <form>
 <div class="input-group">
-        <div class="input-field">
+        <div class="input-field" id="nameField">
             <i class="fa-solid fa-user"></i>
             <input type="text" placeholder="Name">
             </div>
@@ -47,16 +47,34 @@
                 <p>Forgot password? <a href="#">Click Here</a></p>
                 </div>
                 <div class="btn-button">
-                <button type="button">Sign up</button>
-                <button type="button">Login</button>
+                <button type="button" id="signupbtn">Sign up</button>
+                <button type="button" id="loginbtn">Login</button>
 </form>
 </div>
 </div>
 
 
-    
+<script>
+
+let signupbtn =document.getElementById("signupbtn");
+let loginbtn =document.getElementById("loginbtn");
+let nameField =document.getElementById("nameField");
+let title=document.getElementById("title");
+
+loginbtn.onclick=function(){
+nameField.style.maxHeight="0";
+title.innerHTML="Login";
+signupbtn.classList.add("disable");
+loginbtn.classList.remove("disable");
+}
+
+signupbtn.onclick=function(){
+nameField.style.maxHeight="60px";
+title.innerHTML="Sign Up";
+signupbtn.classList.add("disable");
+loginbtn.classList.remove("disable");
+}
+</script>
 </body>
-
-
 
 
