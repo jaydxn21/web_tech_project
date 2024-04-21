@@ -155,7 +155,7 @@ input{
 }
 
 form p{
-    text-align:right;
+    text-align:center;
     font-size: 13px;
     font-family: poppins;
     font-weight: 400;
@@ -166,4 +166,28 @@ form p a{
     color: #f5a91e;
     font-weight: 500;
 
+}
+
+.btn-button{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-button button{
+
+    flex-basis: 48%;
+    background: #EE4A3A;
+    color: white;
+    height: 50px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.btn-button button:hover{
+    background-color: #FFBA3C;
 }
