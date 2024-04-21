@@ -52,34 +52,6 @@
     background-size: cover;
     }
   
-    
-
-
-
-
-  .main_text h1{
-  
-    font-family: poppins;
-    color: white;
-    font-weight: 800px;
-    font-size: 80px;
-    margin-top: 150px;
-    margin-bottom: 0;
-    text-align: center;
-    text-decoration: none;
-   
-  }
-  
-  .main_text h2{
-  
-    font-size:x-large ;
-    font-family:poppins ;
-    margin: 20 auto;
-    font-weight: 150px;
-    line-height: 3px;
-    color: #FFBA3C;
-    text-align: center;
-  }
   
   header {
     display: flex;
@@ -126,3 +98,54 @@
   .login:hover {
     background-color: #047ffa;
   }
+
+ 
+ /* .form-box{
+    width: 100%;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    padding: 50px 60px 70px;
+    text-align: center;
+}*/
+
+.form-box{
+
+    max-width:350px;
+    width: 90%;
+    background: white;
+    position: absolute;
+    padding: 50px 60px 70px;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.form-box h1{
+font-size: 30px;
+font-family: poppins;
+color:#FFBA3C;
+position: relative;
+}
+
+.input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+}
+
