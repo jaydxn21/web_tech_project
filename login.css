@@ -44,16 +44,19 @@
     height: 100%;
   }
   
-  .background {
+ .background {
     background-image: linear-gradient(rgba(0,0,0,0.100),rgba(0,0,0,0.50)),url(images/full-shot-people-training-together-gym.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    }
+  
     
-  }
-  
-  
+
+
+
+
   .main_text h1{
   
     font-family: poppins;
