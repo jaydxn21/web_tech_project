@@ -1,0 +1,125 @@
+
+.nav-links a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+  
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: poppins;
+    text-decoration: none;
+  }
+  nav a.active {
+    color: white;
+  }
+  
+  .nav-links li {
+    list-style: none;
+  }
+  .nav-links {
+    display: flex;
+   
+  }
+  .nav-links a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffba3c;
+    text-decoration-thickness: 2px;
+  }
+  
+  
+  body {
+    margin: 0;
+  }
+  
+  body,html {
+    height: 100%;
+  }
+  
+  .background {
+    background-image: url(images/homebg.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  
+  .main_text h1{
+  
+    font-family: poppins;
+    color: white;
+    font-weight: 800px;
+    font-size: 80px;
+    margin-top: 150px;
+    margin-bottom: 0;
+    text-align: center;
+    text-decoration: none;
+   
+  }
+  
+  .main_text h2{
+  
+    font-size:x-large ;
+    font-family:poppins ;
+    margin: 20 auto;
+    font-weight: 150px;
+    line-height: 3px;
+    color: #FFBA3C;
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 2%;
+  }
+  
+  .logo_img {
+    width:  80px;
+    height: 80px;
+  }
+  
+.logo_text {
+    font-family: poppins;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    align-items: center;
+    text-decoration: none;
+    cursor: default;
+  }
+  
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}  
+
+
+.login {
+    color: white;
+    padding: 9px 25px;
+    background-color: #004080;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: poppins;
+    font-weight: 445;
+  }
+  
+  .login:hover {
+    background-color: #047ffa;
+  }
