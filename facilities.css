@@ -39,8 +39,8 @@ header {
 }
 
 .logo_img {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height:80px;
 }
 
 .login {
@@ -59,7 +59,7 @@ header {
 
 .logo_text {
   font-family: poppins;
-  font-size: 20px;
+  font-size: 22px;
   color: white;
   font-weight: bold;
   padding: 10px;
@@ -104,6 +104,7 @@ article {
   transform-origin: center;
   transition: all 0.4s ease-in-out;
   overflow: hidden;
+  font-family: poppins;
 }
 
 article h2 {
@@ -112,6 +113,7 @@ article h2 {
   font-size: 1.5rem;
   color: var(--title-color);
   transition: color 0.3s ease-out;
+  text-align: center;
 }
 
 figure {
@@ -130,6 +132,7 @@ article img {
 
 .article-body {
   padding: 24px;
+ 
 }
 
 .articles {
