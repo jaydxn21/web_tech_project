@@ -23,6 +23,9 @@ nav a.active {
 .nav-links li {
   list-style: none;
 }
+.nav-links li a {
+  color: black;
+}
 .nav-links {
   display: flex;
 }
@@ -60,7 +63,7 @@ header {
 .logo_text {
   font-family: poppins;
   font-size: 22px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   padding: 10px;
   align-items: center;
@@ -84,8 +87,13 @@ html {
 }
 
 body {
-  background-image: url(images/side-view-smiley-people-training-gym.png);
+  background-color: whi;
   height: max-content;
   background-position: top;
   background-size: cover;
+}
+
+.imgleft {
+  margin-right: 50%;
+  width: 500px;
 }
