@@ -84,9 +84,9 @@ html {
 }
 
 body {
-  background-image: url(images/side-view-smiley-people-training-gym.jpg);
+  background-image: url(images/side-view-smiley-people-training-gym.png);
   height: max-content;
-  background-position: center;
+  background-position: top;
   background-size: cover;
 }
 

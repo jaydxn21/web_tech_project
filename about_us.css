@@ -1,0 +1,99 @@
+.nav-links a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: poppins;
+  text-decoration: none;
+}
+nav a.active {
+  color: white;
+}
+
+.nav-links li {
+  list-style: none;
+}
+.nav-links li a {
+  color: black;
+}
+.nav-links {
+  display: flex;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffba3c;
+  text-decoration-thickness: 2px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 2%;
+}
+
+.logo_img {
+  width: 80px;
+  height: 80px;
+}
+
+.login {
+  color: white;
+  padding: 9px 25px;
+  background-color: #004080;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.login:hover {
+  background-color: #047ffa;
+}
+
+.logo_text {
+  font-family: poppins;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  padding: 10px;
+  align-items: center;
+  text-decoration: none;
+  cursor: default;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-color: whi;
+  height: max-content;
+  background-position: top;
+  background-size: cover;
+}
+
+.imgleft {
+  margin-right: 50%;
+  width: 500px;
+}
