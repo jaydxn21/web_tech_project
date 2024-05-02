@@ -1,0 +1,146 @@
+.nav-links a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: poppins;
+    text-decoration: none;
+  }
+  nav a.active {
+    color: white;
+  }
+  
+  .nav-links li {
+    list-style: none;
+  }
+  .nav-links li a {
+    color: white;
+  }
+  .nav-links {
+    display: flex;
+  }
+  .nav-links a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffba3c;
+    text-decoration-thickness: 2px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 2%;
+  }
+  
+  .logo_img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .login {
+    color: white;
+    padding: 9px 25px;
+    background-color: #004080;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .login:hover {
+    background-color: #047ffa;
+  }
+  
+  .logo_text {
+    font-family: poppins;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    align-items: center;
+    text-decoration: none;
+    cursor: default;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  body,
+  html {
+    height: 100%;
+  }
+  
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.195),rgba(0,0,0,0.50)),url(images/front-view-people-training-together-gym_23-2150289964.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  
+  .ban1 h2{
+    font-family: poppins;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    background-color: rgba(0,64,128, 0.3);
+    padding: 15px;
+  }
+  
+  .ban1 p{
+    font-family: poppins;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+  }
+  
+  
+  
+  .ban2 h2{
+    font-family: poppins;
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    background-color: rgba(0,64,128, 0.3);
+    padding: 15px;
+  }
+  
+  .ban2 h4{
+    color: white;
+    font-family: poppins;
+    font-weight: 500;
+    text-align:justify 20px;
+  
+  }
+  
+  .ban2 ol{
+    font-family: poppins;
+    text-align:justify;
+    color: white;
+    margin-top: -10px;
+    
+  }
+  
+  
+  /*.imgleft {
+    margin-right: 50%;
+    width: 500px;
+    }*/
+  

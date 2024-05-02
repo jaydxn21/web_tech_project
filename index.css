@@ -45,7 +45,7 @@ body,html {
 }
 
 .background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.191),rgba(0, 0, 0, 0.60)),url(images/full-shot-people-training-together-gym.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.115),rgba(0, 0, 0, 0.60)),url(images/full-shot-people-training-together-gym.jpg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
