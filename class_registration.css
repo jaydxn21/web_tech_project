@@ -1,0 +1,184 @@
+.nav-links a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: poppins;
+    text-decoration: none;
+  }
+  nav a.active {
+    color: white;
+  }
+  
+  .nav-links li {
+    list-style: none;
+  }
+  .nav-links li a {
+    color: white;
+  }
+  .nav-links {
+    display: flex;
+  }
+  .nav-links a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffba3c;
+    text-decoration-thickness: 2px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 2%;
+  }
+  
+  .logo_img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .login {
+    color: white;
+    padding: 9px 25px;
+    background-color: #004080;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .login:hover {
+    background-color: #047ffa;
+  }
+  
+  .logo_text {
+    font-family: poppins;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    align-items: center;
+    text-decoration: none;
+    cursor: default;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  body,
+  html {
+    height: 100%;
+  }
+  
+  body {
+    background-image: linear-gradient(rgba(0,0,0,0.100),rgba(0,0,0,0.50)),url(images/pexels-ivan-samkov-4164640.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+/* CSS FOR REGISTRATION FORM*/
+
+/* Define custom section styles */
+
+/*.custom-section {
+    height: 100vh;
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+  }*/
+  
+  /* Define custom container styles */
+  .custom-container {
+    padding: 5rem 0;
+  }
+  
+  /* Define custom row styles */
+  .custom-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Define custom column styles */
+  .custom-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  
+  /* Define custom card styles */
+  .custom-card {
+    max-width: 500px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    padding: 50px 80px 70px;
+  }
+  
+  /* Define custom card body styles */
+  .custom-card-body {
+    padding: 8rem;
+  }
+  
+  /* Define custom form group styles */
+ .custom-form-group {
+    margin-bottom: 2rem;
+  }
+  
+  /* Define custom input styles */
+  .custom-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    background: transparent;
+  }
+  
+  /* Define custom label styles */
+  .custom-label {
+    color: #000; /* You can adjust the color as needed */
+  }
+  
+  /* Define custom select styles */
+  .custom-select {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    background: transparent;
+  }
+  
+  /* Define custom select label styles */
+  .custom-select-label {
+    color: #000; /* You can adjust the color as needed */
+  }
+  
+  /* Define custom button styles */
+  .custom-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

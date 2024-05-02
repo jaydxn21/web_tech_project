@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="class_registration.css" />
+    <title>Classes | Registration</title>
+  </head>
+  <body>
+  <div class="background">
+    <header>
+      <a class="logo" href="index.html">
+        <img src="images/SVG logo/Energ-X Gym logo.svg" class="logo_img" />
+        <span class="logo_text">ENERG-X GYM</span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a class="active" href="index.html">HOME</a></li>
+          <li><a class="active" href="services.html">SERVICES</a></li>
+          <li><a class="active" href="about_us.html">ABOUT US</a></li>
+          <li>
+            <a href="https://maps.app.goo.gl/MyQyTNxDPhHDa5bM6" target="_blank">LOCATION</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="login.html "><button class="login">LOGIN/SIGNUP</button></a>
+    </header>
+</div>
+<!---CLASS REGISTRATION FORM-->
+<section class="custom-section">
+    <div class="custom-container custom-padding">
+      <div class="custom-row custom-align">
+        <div class="custom-col">
+          <div class="custom-card">
+            <div class="custom-card-body">
+              <h3 class="custom-heading">Registration Form</h3>
+              <form>
+  
+                <div class="custom-row">
+                  <div class="custom-col">
+                    <div class="custom-form-group">
+                      <input type="text" id="firstName" class="custom-input" />
+                      <label class="custom-label" for="firstName">First Name</label>
+                    </div>
+                  </div>
+                  <div class="custom-col">
+                    <div class="custom-form-group">
+                      <input type="text" id="lastName" class="custom-input" />
+                      <label class="custom-label" for="lastName">Last Name</label>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="custom-row">
+                  <div class="custom-col">
+                    <div class="custom-form-group">
+                      <input type="text" id="birthdayDate" class="custom-input" />
+                      <label class="custom-label" for="birthdayDate">Birthday</label>
+                    </div>
+                  </div>
+                  <div class="custom-col">
+                    <div class="custom-form-group">
+                      <h6 class="custom-subheading">Gender: </h6>
+                      <div class="custom-radio-group">
+                        <input class="custom-radio" type="radio" name="gender" id="femaleGender" value="female" checked />
+                        <label class="custom-radio-label" for="femaleGender">Female</label>
+                      </div>
+                      <div class="custom-radio-group">
+                        <input class="custom-radio" type="radio" name="gender" id="maleGender" value="male" />
+                        <label class="custom-radio-label" for="maleGender">Male</label>
+                      </div>
+                      <div class="custom-radio-group">
+                        <input class="custom-radio" type="radio" name="gender" id="otherGender" value="other" />
+                        <label class="custom-radio-label" for="otherGender">Other</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="custom-row">
+                  <div class="custom-col">
+                    <div class="custom-form-group">
+                      <input type="email" id="emailAddress" class="custom-input" />
+                      <label class="custom-label" for="emailAddress">Email</label>
+                    </div>
+                  </div>
+                  <div class="custom-col">
+                    <div class="custom-form-group">
+                      <input type="tel" id="phoneNumber" class="custom-input" />
+                      <label class="custom-label" for="phoneNumber">Phone Number</label>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="custom-row">
+                  <div class="custom-col">
+                    <select class="custom-select">
+                      <option value="1" disabled selected>Choose option</option>
+                      <option value="2">Subject 1</option>
+                      <option value="3">Subject 2</option>
+                      <option value="4">Subject 3</option>
+                    </select>
+                    <label class="custom-select-label">Choose option</label>
+                  </div>
+                </div>
+  
+                <div class="custom-submit">
+                  <input class="custom-btn" type="submit" value="Submit" />
+                </div>
+  
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
