@@ -87,57 +87,55 @@ html {
 }
 
 body {
-  background-image: linear-gradient(rgba(0,0,0,0.100),rgba(0,0,0,0.50)),url(images/pexels-ivan-samkov-4164640.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url(images/pexels-ivan-samkov-4164640.jpg);
   background-size: cover;
   background-position: top center;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
-
-.ban1 h2{
+.ban1 h2 {
   font-family: poppins;
   text-align: center;
   color: white;
   margin-top: 50px;
-  background-color: rgba(0,64,128, 0.3);
+  /* background-color: rgba(0, 64, 128, 0.3); */
   padding: 15px;
 }
 
-.ban1 p{
+.ban1 p {
   font-family: poppins;
   text-align: center;
   color: white;
   margin-top: 30px;
 }
 
-
-
-.ban2 h2{
+.ban2 h2 {
   font-family: poppins;
   text-align: center;
   color: white;
   margin-top: 80px;
-  background-color: rgba(0,64,128, 0.3);
+  /* background-color: rgba(0, 64, 128, 0.3); */
   padding: 15px;
+  padding-right: 12px;
 }
 
-.ban2 h4{
+.ban2 h4 {
   color: white;
   font-family: poppins;
   font-weight: 500;
-  text-align:justify 20px;
-
+  text-align: justify 20px;
 }
 
-.ban2 ol{
+.ban2 ol {
   font-family: poppins;
-  text-align:justify;
+  text-align: justify;
   color: white;
   margin-top: -10px;
-  
+  padding-bottom: 12px;
+  padding-right: 12px;
 }
-
 
 /*.imgleft {
   margin-right: 50%;
