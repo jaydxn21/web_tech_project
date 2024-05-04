@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="class_registration.css" />
+    <title>Class Registration</title>
+  </head>
+  <body>
+  <div class="background">
+    <header>
+      <a class="logo" href="index.html">
+        <img src="images/SVG logo/Energ-X Gym logo.svg" class="logo_img" />
+        <span class="logo_text">ENERG-X GYM</span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a class="active" href="index.html">HOME</a></li>
+          <li><a class="active" href="services.html">SERVICES</a></li>
+          <li><a class="active" href="about_us.html">ABOUT US</a></li>
+          <li>
+            <a href="https://maps.app.goo.gl/MyQyTNxDPhHDa5bM6" target="_blank">LOCATION</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="login.html "><button class="login">LOGIN/SIGNUP</button></a>
+    </header>
+</div>
+
+<!---CLASS REGISTRATION FORM-->
+
+<div class="form-box">
+    <h1 id="title">Registration</h1>
+    <form>
+        <div class="input-group">
+            <div class="input-field" id="firstNameField">
+                <input type="text" placeholder="First Name">
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Last Name">
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Phone Number">
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Birthday">
+            </div>
+            <div class="input-field">
+                <select>
+                    <option value="" disabled selected>Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+                <div class="choose-class">
+                    <select>
+                        <option value="" disabled selected>Select Class</option>
+                        <option value="option1">Strength-training</option>
+                        <option value="option2">Cardio</option>
+                        <option value="option3">Pilates</option>
+                        <option value="option3">Water Fitness</option>
+                        <option value="option3">Bunjee Fitness</option>
+                    </select>
+            </div>
+     
+        <div class="btn-button">
+            <input type="SUBMIT" value="SUBMIT">
+        </div>
+    </form>
+</div>
+</body>
+</html>
+

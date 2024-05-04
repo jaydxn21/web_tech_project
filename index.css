@@ -45,7 +45,7 @@ body,html {
 }
 
 .background {
-  background-image: url(images/homebg.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.115),rgba(0, 0, 0, 0.60)),url(images/full-shot-people-training-together-gym.jpg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -309,7 +309,7 @@ header {
 
 .banner3{
 
-  background-image: linear-gradient(rgba(0,0,0,0.100),rgba(0,0,0,0.100)),url(images/exercise-machines-gym-without-people_637285-8444.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.348),rgba(0,0,0,0.100)),url(images/exercise-machines-gym-without-people_637285-8444.jpg);
   width:100%;
   height: 78vh;
   padding:60px 0;
