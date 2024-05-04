@@ -101,7 +101,7 @@
 
 justify-content: center;
 display: flex;
-margin-top: -10px;
+margin-top: 20px;
 
 }
 
@@ -249,7 +249,7 @@ body{
   color: white;
   background-color:transparent;
   position: fixed;
-  bottom: 2%;
+  bottom: 15%;
   margin-left: 40%;
   margin-right: 50%;
   justify-content: center;
