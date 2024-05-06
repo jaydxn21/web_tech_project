@@ -194,3 +194,15 @@ form p a{
 .btn-button button:hover{
     background-color: #FFBA3C;
 }
+
+.error-popup{
+
+  position: absolute;
+  background-color: #FFBA3C;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  display: none;
+  z-index: 1;
+}

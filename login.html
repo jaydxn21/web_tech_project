@@ -28,33 +28,37 @@
 
 <div class="form-box">
 <h1 id="title">Sign Up</h1>
-<form>
+<form id="loginForm">
 <div class="input-group">
         <div class="input-field" id="nameField">
             <i class="fa-solid fa-user"></i>
-            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Name" title="Please enter your name" required>
+      
             </div>
 
         <div class="input-field">
             <i class="fa-solid fa-envelope"></i>
-            <input type="text" placeholder="Email">
+            <input type="email" placeholder="Email"  title="Please enter a valid email address"required>
+           
             </div>
 
             <div class="input-field">
                 <i class="fa-solid fa-lock"></i>
-                <input type="text" placeholder="Password">
+                <input type="text" placeholder="Password" required>
+               
                 </div>
                 <p>Forgot password? <a href="#">Click Here</a></p>
                 </div>
                 <div class="btn-button">
                 <button type="button" id="signupbtn">Sign up</button>
                 <button type="button" id="loginbtn">Login</button>
+</div>
 </form>
 </div>
 </div>
 
-
 <script>
+  
 
 let signupbtn =document.getElementById("signupbtn");
 let loginbtn =document.getElementById("loginbtn");
@@ -73,25 +77,32 @@ nameField.style.maxHeight="60px";
 title.innerHTML="Sign Up";
 signupbtn.classList.add("disable");
 loginbtn.classList.remove("disable");
+
+setTimeout(function(){
+    console.log("Redirecting...");
+    window.location.href = "class_registration.html";
+    }, 1000); 
+
 }
 
 
-    
+document.getElementById("loginForm").addEventListener("submit",function(event){
+  event.preventDefault();
+ var form=document.getElementById("loginForm");
+  var isValid = form.checkValidity();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  if (!isValid) {
+        event.preventDefault(); 
+        alert("Please fill out all required fields.");
+  }else{
+    alert("Sign up Succesful!"); 
+     }
+   
+setTimeout(function(){
+    console.log("Redirecting...");
+    window.location.href = "class_registration.html";
+    }, 1000); 
+  });
 </script>
 </body>
 
