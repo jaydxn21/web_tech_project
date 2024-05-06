@@ -18,7 +18,6 @@
       <nav>
         <ul class="nav-links">
           <li><a class="active" href="index.html">HOME</a></li>
-          <!-- <li><a class="active" href="services.html">SERVICES</a></li> -->
           <li><a class="active" href="about_us.html">ABOUT US</a></li>
           <li><a href="https://maps.app.goo.gl/MyQyTNxDPhHDa5bM6" target="_blank">LOCATION</a></li>
         </ul>
@@ -58,12 +57,7 @@
 </div>
 
 <script>
-  
 
-let signupbtn =document.getElementById("signupbtn");
-let loginbtn =document.getElementById("loginbtn");
-let nameField =document.getElementById("nameField");
-let title=document.getElementById("title");
 
 loginbtn.onclick=function(){
 nameField.style.maxHeight="0";
@@ -78,31 +72,7 @@ title.innerHTML="Sign Up";
 signupbtn.classList.add("disable");
 loginbtn.classList.remove("disable");
 
-setTimeout(function(){
-    console.log("Redirecting...");
-    window.location.href = "class_registration.html";
-    }, 1000); 
-
 }
-
-
-document.getElementById("loginForm").addEventListener("submit",function(event){
-  event.preventDefault();
- var form=document.getElementById("loginForm");
-  var isValid = form.checkValidity();
-
-  if (!isValid) {
-        event.preventDefault(); 
-        alert("Please fill out all required fields.");
-  }else{
-    alert("Sign up Succesful!"); 
-     }
-   
-setTimeout(function(){
-    console.log("Redirecting...");
-    window.location.href = "class_registration.html";
-    }, 1000); 
-  });
 </script>
 </body>
 
