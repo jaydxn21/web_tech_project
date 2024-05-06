@@ -91,13 +91,13 @@
       var birthdayInput = document.getElementById("birthday").value;
         if (!isValidBirthdayFormat(birthdayInput)) {
             event.preventDefault(); 
+      alert("Please enter a valid birthday in the format YYYY-MM-DD.");
 
-            alert("Please enter a valid birthday in the format YYYY-MM-DD.");
         } else {
             alert("Successfully submitted!");
 
             setTimeout(function(){
-                window.location.href = "index.html";
+                window.location.href = "index.html"
             }, 1000); 
         }
     }
