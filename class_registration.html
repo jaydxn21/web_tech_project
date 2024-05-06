@@ -34,32 +34,32 @@
 
 <div class="form-box">
     <h1 id="title">Registration</h1>
-    <form>
+    <form id="registrationForm">
         <div class="input-group">
             <div class="input-field" id="firstNameField">
-                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="First Name" required>
             </div>
             <div class="input-field">
-                <input type="text" placeholder="Last Name">
+                <input type="text" placeholder="Last Name" required>
             </div>
             <div class="input-field">
-                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Email" required>
             </div>
             <div class="input-field">
-                <input type="text" placeholder="Phone Number">
+                <input type="text" placeholder="Phone Number"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Phone number should be in the format xxx-xxx-xxxx" required> 
             </div>
             <div class="input-field">
-                <input type="text" placeholder="Birthday">
+                <input type="text" id="birthday" placeholder="Birthday (YYYY-MM-DD)" title="Please match the required format"required>
             </div>
             <div class="input-field">
-                <select>
+                <select required>
                     <option value="" disabled selected>Gender</option>
                     <option value="male">Male</option>
                     <option value="female">Female</option>
                 </select>
             </div>
                 <div class="choose-class">
-                    <select>
+                    <select required>
                         <option value="" disabled selected>Select a class</option>
                         <option value="option1">Crossfit</option>
                         <option value="option2">Cardio</option>
@@ -77,6 +77,38 @@
         </div>
     </form>
 </div>
+
+<script>
+  document.getElementById("registrationForm").addEventListener("submit", function(event) {
+    var form = document.getElementById("registrationForm");
+    var isValid = form.checkValidity(); 
+
+    if (!isValid) {
+        event.preventDefault(); 
+
+        alert("Please fill out all required fields.");
+    } else {
+      var birthdayInput = document.getElementById("birthday").value;
+        if (!isValidBirthdayFormat(birthdayInput)) {
+            event.preventDefault(); 
+
+            alert("Please enter a valid birthday in the format YYYY-MM-DD.");
+        } else {
+            alert("Successfully submitted!");
+
+            setTimeout(function(){
+                window.location.href = "index.html";
+            }, 1000); 
+        }
+    }
+  });
+
+function isValidBirthdayFormat(birthday) {
+    var pattern = /^\d{4}-\d{2}-\d{2}$/;
+    return pattern.test(birthday);
+}
+    
+</script>
 </body>
 </html>
 
