@@ -1,106 +1,139 @@
+/* .nav-links a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bolder;
+}
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: poppins;
+  text-decoration: none;
+}
+nav a.active {
+  color: white;
+}
+
+.nav-links li {
+  list-style: none;
+}
+.nav-links {
+  display: flex;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffba3c;
+  text-decoration-thickness: 2px;
+} */
+
+.nav-links {
+  font-family: poppins;
+}
 .nav-links a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: bolder;
-  
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    font-family: poppins;
-    text-decoration: none;
-  }
-  nav a.active {
-    color: white;
-  }
-  
-  .nav-links li {
-    list-style: none;
-  }
-  .nav-links {
-    display: flex;
-   
-  }
-  .nav-links a:hover {
-    text-decoration: underline;
-    text-decoration-color: #ffba3c;
-    text-decoration-thickness: 2px;
-  }
-  
-  
-  body {
-    margin: 0;
-  }
-  
-  body,html {
-    height: 100%;
-  }
-  
- .background {
-    background-image: linear-gradient(rgba(0,0,0,0.100),rgba(0,0,0,0.50)),url(images/full-shot-people-training-together-gym.jpg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
-  
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 2%;
-  }
-  
-  .logo_img {
-    width:  80px;
-    height: 80px;
-  }
-  
-.logo_text {
-    font-family: poppins;
-    font-size: 22px;
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-    align-items: center;
-    text-decoration: none;
-    cursor: default;
-  }
-  
-.logo {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-}  
+  font-weight: bold;
+  color: white;
+}
+.nav-links a:hover {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: #ffba3c;
+  text-decoration-thickness: 2px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
 
+.dropdown-content a {
+  float: none;
+  font-weight: bold;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffba3c;
+  text-decoration-thickness: 2px;
+}
+
+body {
+  margin: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url(images/full-shot-people-training-together-gym.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 2%;
+}
+
+.logo_img {
+  width: 80px;
+  height: 80px;
+}
+
+.logo_text {
+  font-family: poppins;
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  align-items: center;
+  text-decoration: none;
+  cursor: default;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
 
 .login {
-    color: white;
-    padding: 9px 25px;
-    background-color: #004080;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    font-family: poppins;
-    font-weight: 445;
-  }
-  
-  .login:hover {
-    background-color: #047ffa;
-  }
+  color: white;
+  padding: 9px 25px;
+  background-color: #004080;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-family: poppins;
+  font-weight: 445;
+}
 
- 
- /* .form-box{
+.login:hover {
+  background-color: #047ffa;
+}
+
+/* .form-box{
     width: 100%;
     max-width: 500px;
     position: absolute;
@@ -112,97 +145,286 @@
     text-align: center;
 }*/
 
-.form-box{
-
-    max-width:350px;
-    width: 90%;
-    background: white;
-    position: absolute;
-    padding: 0px 35px 25px;
-    border-radius: 10px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-}
-
-.form-box h1{
-font-size: 30px;
-font-family: poppins;
-color:#FFBA3C;
-position: relative;
-}
-
-.input-field{
-    background: #eaeaea;
-    margin: 15px 0;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    max-height: 65px;
-    transition: max-height 0.5s;
-    overflow:hidden;
-}
-
-input{
-    width: 100%;
-    background: transparent;
-    border: 0;
-    outline: 0;
-    padding: 20px; 
-}
-
-.input-field i{
-    margin-left: 15px;
-    color: grey;
-}
-
-form p{
-    text-align:center;
-    font-size: 13px;
-    font-family: poppins;
-    font-weight: 400;
-}
-
-form p a{
-    text-decoration: none;
-    color: #f5a91e;
-    font-weight: 500;
-
-}
-
-.btn-button{
-
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.btn-button button{
-
-    flex-basis: 48%;
-    background: #EE4A3A;
-    color: white;
-    height: 50px;
-    border-radius: 20px;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-    transition: background 1s;
-}
-
-.btn-button button:hover{
-    background-color: #FFBA3C;
-}
-
-.error-popup{
-
+.form-box {
+  max-width: 350px;
+  width: 90%;
+  background: white;
   position: absolute;
-  background-color: #FFBA3C;
+  padding: 0px 35px 25px;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.form-box h1 {
+  font-size: 30px;
+  font-family: poppins;
+  color: #ffba3c;
+  position: relative;
+}
+
+.input-field {
+  background: #eaeaea;
+  margin: 15px 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  max-height: 65px;
+  transition: max-height 0.5s;
+  overflow: hidden;
+}
+
+input {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 20px;
+}
+
+.input-field i {
+  margin-left: 15px;
+  color: grey;
+}
+
+form p {
+  text-align: center;
+  font-size: 13px;
+  font-family: poppins;
+  font-weight: 400;
+}
+
+form p a {
+  text-decoration: none;
+  color: #f5a91e;
+  font-weight: 500;
+}
+
+.btn-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-button button {
+  flex-basis: 48%;
+  background: #ee4a3a;
+  color: white;
+  height: 50px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: background 1s;
+}
+
+.btn-button button:hover {
+  background-color: #ffba3c;
+}
+
+.error-popup {
+  position: absolute;
+  background-color: #ffba3c;
   color: white;
   padding: 5px 10px;
   border-radius: 5px;
   font-size: 12px;
   display: none;
   z-index: 1;
+}
+
+/* .dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  text-decoration: underline;
+  text-decoration-color: #ffba3c;
+  text-decoration-thickness: 2px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  font-weight: bold;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffba3c;
+  text-decoration-thickness: 2px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+} */
+
+#message {
+  display: none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "&#10004;";
+}
+
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "&#10006;";
+}
+footer {
+  /* position: absolute; */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+
+  border-radius: 50%;
+}
+.socials a i {
+  font-size: 1.1rem;
+  width: 20px;
+
+  transition: color 0.4s ease;
+}
+.socials a:hover i {
+  color: aqua;
+}
+
+.footer-bottom {
+  background: #000;
+  width: 100vw;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.footer-bottom p {
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom p a {
+  color: #44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
+.footer-menu {
+  float: right;
+}
+.footer-menu ul {
+  display: flex;
+}
+.footer-menu ul li {
+  padding-right: 10px;
+  display: block;
+}
+.footer-menu ul li a {
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover {
+  color: #27bcda;
+}
+
+@media (max-width: 500px) {
+  .footer-menu ul {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
 }

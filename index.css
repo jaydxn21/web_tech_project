@@ -1,7 +1,4 @@
-
-/* color links */
-
-.nav-links a {
+/* .nav-links a {
   float: left;
   color: white;
   text-align: center;
@@ -32,30 +29,67 @@ nav a.active {
 .nav-links a:hover {
   text-decoration: underline;
   text-decoration-color: #ffba3c;
+  text-decoration-thickness: 2px; 
+} */
+
+.nav-links {
+  font-family: poppins;
+}
+.nav-links a {
+  font-weight: bold;
+  color: white;
+}
+.nav-links a:hover {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: #ffba3c;
   text-decoration-thickness: 2px;
 }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
 
+.dropdown-content a {
+  float: none;
+  font-weight: bold;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffba3c;
+  text-decoration-thickness: 2px;
+}
 
 body {
   margin: 0;
 }
 
-body,html {
+body,
+html {
   height: 100%;
 }
 
 .background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.115),rgba(0, 0, 0, 0.60)),url(images/full-shot-people-training-together-gym.jpg);
+  padding-bottom: 10%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.115), rgba(0, 0, 0, 0.6)),
+    url(images/full-shot-people-training-together-gym.jpg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
-
-.main_text h1{
-
+.main_text h1 {
   font-family: poppins;
   color: white;
   font-weight: 800px;
@@ -64,17 +98,15 @@ body,html {
   margin-bottom: 0;
   text-align: center;
   text-decoration: none;
- 
 }
 
-.main_text h2{
-
-  font-size:x-large ;
-  font-family:poppins ;
+.main_text h2 {
+  font-size: x-large;
+  font-family: poppins;
   margin: 20 auto;
   font-weight: 150px;
   line-height: 3px;
-  color: #FFBA3C;
+  color: #ffba3c;
   text-align: center;
 }
 
@@ -86,7 +118,7 @@ header {
 }
 
 .logo_img {
-  width:  80px;
+  width: 80px;
   height: 80px;
 }
 
@@ -121,13 +153,12 @@ header {
   display: flex;
   align-items: center;
   text-decoration: none;
-
 }
 
 /*SCROLLDOWN BUTTON */
-.scroll-down{
-  height:50px;
-  width:50px;
+.scroll-down {
+  height: 50px;
+  width: 50px;
   border: 2.5px solid white;
   position: absolute;
   left: 50%;
@@ -135,15 +166,16 @@ header {
   border-radius: 200px;
   cursor: pointer;
 }
-.scroll-down::before,.scroll-down::after{
-  content: '';
+.scroll-down::before,
+.scroll-down::after {
+  content: "";
   position: absolute;
   top: 30%;
-  left:50%;
-  border: 2px solid #FFBA3C;
+  left: 50%;
+  border: 2px solid #ffba3c;
   height: 15px;
-  width:15px;
-  transform: translate(-50%,-98%) rotate(45deg);
+  width: 15px;
+  transform: translate(-50%, -98%) rotate(45deg);
   border-top: transparent;
   border-left: transparent;
   animation: scroll-down 1s ease-in-out infinite;
@@ -153,46 +185,47 @@ header {
   animation-delay:.3s;
 }*/
 
-@keyframes scroll-down{
-
- 0%{opacity: 0;
-}
-  30%{
+@keyframes scroll-down {
+  0% {
+    opacity: 0;
+  }
+  30% {
     opacity: 1;
   }
-  60%{opacity: 1;
+  60% {
+    opacity: 1;
   }
-100%{opacity:0;
-  top: 90%;
+  100% {
+    opacity: 0;
+    top: 90%;
+  }
 }
-}
-
 
 /*SECTION ONE */
 
-.banner1{
-  background-image: linear-gradient(rgba(0,0,0,0.100),rgba(0,0,0,0.50)),url(images/smiley-women-working-treadmill_23-2148419891.jpg);
-  width:100%;
+.banner1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url(images/smiley-women-working-treadmill_23-2148419891.jpg);
+  width: 100%;
   height: 85vh;
-  padding:60px 0;
+  padding: 60px 0;
   background-size: cover;
-  margin:0 ; 
+  margin: 0;
 }
 
-.transparent-box{
-  background-color:rgba(60, 60, 60, 0.5);
+.transparent-box {
+  background-color: rgba(60, 60, 60, 0.5);
   padding: 30px;
   border-radius: 20px;
-  box-shadow: 0 0 6px rgba(0, 64, 128, 0.817); 
-  width:500px;
-  height:380px;
-  margin:8.5vh auto 0;
+  box-shadow: 0 0 6px rgba(0, 64, 128, 0.817);
+  width: 500px;
+  height: 380px;
+  margin: 8.5vh auto 0;
   left: 50;
   transform: translateX(-60%);
 }
 
-.transparent-box p{
-
+.transparent-box p {
   font-size: 15px;
   line-height: 1.5;
   color: white;
@@ -200,67 +233,65 @@ header {
   font-family: poppins;
 }
 
-.banner1 h2{
+.banner1 h2 {
   font-family: poppins;
   text-align: center;
   color: white;
   margin-top: -60px;
   background-color: rgba(0, 0, 0, 0.3);
   padding: 30px;
-  
 }
-.banner1 h2 a{
+.banner1 h2 a {
   text-decoration: none;
-  cursor: default; 
+  cursor: default;
 }
 
 /*BUTTON*/
 
-.meet-trainers{
+.meet-trainers {
   font-family: poppins;
   font-weight: bold;
   display: inline-block;
   padding: 10px 30px;
-  border: 2px solid #FFBA3C;
+  border: 2px solid #ffba3c;
   border-radius: 20px;
   text-decoration: none;
   color: white;
-  background-color:transparent;
+  background-color: transparent;
   margin-left: 720px;
   position: relative;
   top: -50px;
   cursor: pointer;
 }
-.meet-trainers:hover{
-  background-color: #FFBA3C;
+.meet-trainers:hover {
+  background-color: #ffba3c;
 }
 
 /* SECTION TWO */
 
-.banner2{
-  background-image: linear-gradient(rgba(0,0,0,0.100),rgba(0,0,0,0.100)),url(images/young-sports-people-training-morning-gym_1157-32102.jpg);
-  width:100%;
+.banner2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(images/young-sports-people-training-morning-gym_1157-32102.jpg);
+  width: 100%;
   height: 85vh;
-  padding:60px 0;
+  padding: 60px 0;
   background-size: cover;
-  margin:0 ; 
+  margin: 0;
 }
 
-.transparent-box2{
-  background-color:rgba(60, 60, 60, 0.5);
+.transparent-box2 {
+  background-color: rgba(60, 60, 60, 0.5);
   padding: 30px;
   border-radius: 20px;
-  box-shadow: 0 0 6px rgba(0, 64, 128, 0.817); 
-  width:500px;
+  box-shadow: 0 0 6px rgba(0, 64, 128, 0.817);
+  width: 500px;
   height: 380px;
-  margin:8.5vh auto 0;
+  margin: 8.5vh auto 0;
   right: 0;
   transform: translateX(60%);
-  
 }
 
-.transparent-box2 p{
-  
+.transparent-box2 p {
   font-size: 15px;
   line-height: 1.5;
   color: white;
@@ -268,7 +299,7 @@ header {
   font-family: poppins;
 }
 
-.banner2 h2{
+.banner2 h2 {
   font-family: poppins;
   text-align: center;
   color: white;
@@ -277,61 +308,57 @@ header {
   padding: 30px;
 }
 
-.banner2 h2 a{
+.banner2 h2 a {
   text-decoration: none;
-  cursor: default; 
+  cursor: default;
 }
 
 /*BUTTONS*/
 
-.explore-classes{
-
+.explore-classes {
   font-family: poppins;
   font-weight: bold;
   display: inline-block;
   padding: 10px 30px;
-  border: 2px solid #FFBA3C;
+  border: 2px solid #ffba3c;
   border-radius: 20px;
   text-decoration: none;
   color: white;
-  background-color:transparent;
+  background-color: transparent;
   margin-left: 520px;
   position: relative;
   top: -50px;
   cursor: pointer;
 }
 .explore-classes:hover {
-  background-color: #FFBA3C;
+  background-color: #ffba3c;
 }
-
 
 /*SECTION THREE */
 
-.banner3{
-
-  background-image: linear-gradient(rgba(0, 0, 0, 0.348),rgba(0,0,0,0.100)),url(images/exercise-machines-gym-without-people_637285-8444.jpg);
-  width:100%;
+.banner3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.348), rgba(0, 0, 0, 0.1)),
+    url(images/exercise-machines-gym-without-people_637285-8444.jpg);
+  width: 100%;
   height: 78vh;
-  padding:60px 0;
+  padding: 60px 0;
   background-size: cover;
-  margin:0 ; 
+  margin: 0;
 }
 
-.transparent-box3{
-  background-color:rgba(60, 60, 60, 0.5);
+.transparent-box3 {
+  background-color: rgba(60, 60, 60, 0.5);
   padding: 30px;
   border-radius: 20px;
-  box-shadow: 0 0 6px rgba(0, 64, 128, 0.817); 
-  width:500px;
-  height:360px;
-  margin:8.5vh auto 0;
+  box-shadow: 0 0 6px rgba(0, 64, 128, 0.817);
+  width: 500px;
+  height: 360px;
+  margin: 8.5vh auto 0;
   left: 50;
   transform: translateX(-60%);
-  
 }
 
-.transparent-box3 p{
-  
+.transparent-box3 p {
   font-size: 15px;
   line-height: 1.5;
   color: white;
@@ -340,30 +367,27 @@ header {
 }
 
 /*BUTTON*/
-.explore-facilities{
-
+.explore-facilities {
   font-family: poppins;
   font-weight: bold;
   display: inline-block;
   padding: 10px 30px;
-  border: 2px solid #FFBA3C;
+  border: 2px solid #ffba3c;
   border-radius: 20px;
   text-decoration: none;
   color: white;
-  background-color:transparent;
+  background-color: transparent;
   margin-left: 720px;
   position: relative;
   top: -50px;
   cursor: pointer;
-
-  
 }
 
 .explore-facilities:hover {
-  background-color: #FFBA3C;
+  background-color: #ffba3c;
 }
 
-.banner3 h2{
+.banner3 h2 {
   font-family: poppins;
   text-align: center;
   color: white;
@@ -372,8 +396,146 @@ header {
   padding: 30px;
 }
 
-.banner3 h2 a{
+.banner3 h2 a {
   text-decoration: none;
-  cursor: default; 
+  cursor: default;
 }
 
+footer {
+  /* position: absolute; */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+
+  border-radius: 50%;
+}
+.socials a i {
+  font-size: 1.1rem;
+  width: 20px;
+
+  transition: color 0.4s ease;
+}
+.socials a:hover i {
+  color: aqua;
+}
+
+.footer-bottom {
+  background: #000;
+  width: 100vw;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.footer-bottom p {
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom p a {
+  color: #44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
+.footer-menu {
+  float: right;
+}
+.footer-menu ul {
+  display: flex;
+}
+.footer-menu ul li {
+  padding-right: 10px;
+  display: block;
+}
+.footer-menu ul li a {
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover {
+  color: #27bcda;
+}
+
+@media (max-width: 500px) {
+  .footer-menu ul {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+/* For screens smaller than 768px */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+  }
+  .nav-links a {
+    float: none;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .scroll-down {
+    display: none;
+  }
+  .transparent-box,
+  .transparent-box2,
+  .transparent-box3 {
+    width: 80%;
+    margin: 8.5vh auto 0;
+    left: 0;
+    right: 0;
+    transform: none;
+  }
+  .meet-trainers,
+  .explore-classes,
+  .explore-facilities {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
