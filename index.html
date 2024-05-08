@@ -69,19 +69,16 @@
         
       </header>
 
-      <div class="content">
+      <section class="content">
 
       <div class="main_text">
         <h1>WELCOME TO ENERG-X GYM</h1>
         <h2>Energize Your Potential, Ignite Your Passion.</h2>
 
-  
-  
-  <!---Section One begins-->
-
   <div class="scroll-down"></div>
   
  </div>
+</section>
       </div>
 
 
@@ -89,8 +86,6 @@
 
  <h2><a>CERTIFIED PERSONAL TRAINERS</a></h2>
    
- 
-  </div>
           
   <div class="transparent-box">
       <p>At Energ-X, we boast a team of certified personal trainers who are committed to guiding you towards achieving your fitness goals. 
@@ -105,11 +100,9 @@
 
       </div>     
       <a href="trainers.html"><button class="meet-trainers">MEET OUR TRAINERS</button>
-
-     
-        
-  </section></section>
-
+</div>
+</section>
+</div>
   <section class="banner2">
 
     <h2><a>VARIETY OF FITNESS CLASSES</a></h2>  
@@ -123,9 +116,9 @@
         </div> 
          <a href="class_schedule.html"><button class="explore-classes">EXPLORE OUR CLASSES</button>
           
-         
+         <div>
   </section>
-   
+   </div>
      <section class="banner3">
 
       <h2><a>CUTTING-EDGE FACILITIES</h2>  
@@ -137,25 +130,15 @@
           </div>     
            <a href="facilities.html"><button class="explore-facilities">EXPLORE FACILITIES</button>
            
-            
+      </div>  
        </section>
       </div>
      
-
-
- <script>
-        document.querySelector('.scroll-down').addEventListener('click', function() {
-     
-          document.querySelector('.banner1').scrollIntoView({ behavior: 'smooth' });
-        });
-      </script>
-
-
-
+</body>
 <footer>
   <div class="footer-content">
-      <h3>ENERG-X</h3>
-      <p>Join us at Energ-X Gym and discover the power of fitness to transform not only your body, but your mind and spirit as well. Together, we'll sweat, strive, and succeed—because at Energ-X, greatness is within reach for everyone. Welcome to the energy of excellence. Welcome to Energ-X Gym.</p>
+    
+      <p>Join us at Energ-X Gym and discover the power of fitness to transform not only your body, but your mind and spirit as well.</p></div>
       <ul class="socials">
           <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
           <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
@@ -165,7 +148,7 @@
   <div class="footer-bottom d-flex justify-content-between">
       <p>copyright &copy; <a href="#">ENERG-X</a>  </p>
       <div class="vd_box">
-        <strong>IP:</strong>
+        <strong>IP:</strong> 
         <div id="vd_ip"><div class="vd_loader"></div>  </div>
       </div>
               <div class="footer-menu">
@@ -176,8 +159,8 @@
                 </ul>
               </div>
   </div>
-
 </footer>
+
 <script>
 const doSomething = getIP();
 
@@ -189,11 +172,12 @@ async function getIP(){
   element_ip.innerHTML = data.ip + " | " + data.city + " | " + data.country ;
   return data;
 }
-</script>
 
-
-  
-</body>
+        document.querySelector('.scroll-down').addEventListener('click', function() {
+     
+          document.querySelector('.banner1').scrollIntoView({ behavior: 'smooth' });
+        });
+      </script>
 </html>
 
 
