@@ -85,6 +85,8 @@ body {
 body,
 html {
   height: 100%;
+  margin: 0%;
+  padding: 0%;
 }
 .background {
   padding-bottom: 10%;
@@ -94,6 +96,8 @@ body {
   height: max-content;
   background-position: top;
   background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 /* .background {
@@ -152,7 +156,8 @@ article img {
   max-width: 1200px;
   margin-inline: auto;
   padding-inline: 24px;
-  padding-top: 5%;
+  padding-top: 2%;
+  margin-bottom: 30vh;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 24px;
 }
