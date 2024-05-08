@@ -79,6 +79,7 @@ html {
   padding: 0;
   margin: 0;
   height: 100%;
+ 
 }
 
 .background {
@@ -93,8 +94,9 @@ html {
 
 .main_text h1 {
   font-family: poppins;
+  
   color: white;
-  font-weight: 800px;
+  font-weight:800;
   font-size: 80px;
   margin-top: 150px;
   margin-bottom: 0;
