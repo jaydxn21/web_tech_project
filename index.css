@@ -76,6 +76,8 @@ body {
 
 body,
 html {
+  padding: 0;
+  margin: 0;
   height: 100%;
 }
 
@@ -211,7 +213,6 @@ header {
   padding: 60px 0;
   background-size: cover;
   margin: 0;
-  
 }
 
 .transparent-box {
@@ -271,13 +272,13 @@ header {
 /* SECTION TWO */
 
 .banner2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(images/young-sports-people-training-morning-gym_1157-32102.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(images/young-sports-people-training-morning-gym_1157-32102.jpg);
   width: 100%;
   height: 670px;
   padding: 60px 0;
   background-size: cover;
   margin: 0;
-  
 }
 
 .transparent-box2 {
@@ -341,11 +342,11 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.348), rgba(0, 0, 0, 0.1)),
     url(images/exercise-machines-gym-without-people_637285-8444.jpg);
   width: 100%;
- height: 670px;
+  height: 670px;
   padding: 60px 0;
   background-size: cover;
   margin: 0;
- }
+}
 
 .transparent-box3 {
   background-color: rgba(60, 60, 60, 0.5);
@@ -409,22 +410,17 @@ footer {
   right: 0;
   background: #111;
   height: auto;
-  width: 100%;
-  padding-top: auto;
+  width: 100vw;
+  padding-top: 40px;
   color: #fff;
-  text-decoration: none;
 }
-
 .footer-content {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  padding: 20px 0;
-  height: 40px;
- }
-
+}
 .footer-content h3 {
   font-size: 2.1rem;
   font-weight: 500;
@@ -437,16 +433,13 @@ footer {
   line-height: 28px;
   font-size: 14px;
   color: #cacdd2;
-  height: 20%;
-  text-decoration: none;
-
 }
 .socials {
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem 0 3rem 0;  
+  margin: 1rem 0 3rem 0;
 }
 .socials li {
   margin: 0 10px;
@@ -456,6 +449,7 @@ footer {
   color: #fff;
   border: 1.1px solid white;
   padding: 5px;
+
   border-radius: 50%;
 }
 .socials a i {
@@ -474,23 +468,17 @@ footer {
   padding: 20px;
   padding-bottom: 40px;
   text-align: center;
-  height: 70px;
-  
 }
 .footer-bottom p {
   float: left;
   font-size: 14px;
   word-spacing: 2px;
   text-transform: capitalize;
-  text-decoration: none;
-  
-
 }
 .footer-bottom p a {
   color: #44bae8;
   font-size: 16px;
   text-decoration: none;
-  
 }
 .footer-bottom span {
   text-transform: uppercase;

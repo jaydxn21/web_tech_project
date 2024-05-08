@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-< lang="en">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -89,9 +89,9 @@
 
       <div class="container">
         <div class="table-container">
-          <div class="timetable-img text-center">
+          <!-- <div class="timetable-img text-center">
             <img src="img/content/timetable.png" alt="" />
-          </div>
+          </div> -->
 
           <div class="table-responsive">
             <table class="table table-bordered text-center">
@@ -322,6 +322,8 @@
                 </tr>
               </tbody>
             </table>
+          </div>
+          <div>
             <a href="class_registration.html" class="registration"
               ><button>REGISTER</button></a
             >
@@ -332,41 +334,45 @@
   </body>
   <footer>
     <div class="footer-content">
-        <h3>ENERG-X</h3>
-        <p>Join us at Energ-X Gym and discover the power of fitness to transform not only your body, but your mind and spirit as well. Together, we'll sweat, strive, and succeed—because at Energ-X, greatness is within reach for everyone. Welcome to the energy of excellence. Welcome to Energ-X Gym.</p>
-        <ul class="socials">
-            <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
-        </ul>
+      <p>
+        Join us at Energ-X Gym and discover the power of fitness to transform
+        not only your body, but your mind and spirit as well.
+      </p>
+      <ul class="socials">
+        <li>
+          <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
+        </li>
+      </ul>
     </div>
     <div class="footer-bottom d-flex justify-content-between">
-        <p>copyright &copy; <a href="#">ENERG-X</a>  </p>
-        <div class="vd_box">
-          <strong>IP:</strong>
-          <div id="vd_ip"><div class="vd_loader"></div>  </div>
-        </div>
-                <div class="footer-menu">
-                  <ul class="f-menu">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Services</a></li>
-                  </ul>
-                </div>
+      <p>copyright &copy; <a href="#">ENERG-X</a></p>
+      <div class="vd_box">
+        <strong>IP:</strong>
+        <div id="vd_ip"><div class="vd_loader"></div></div>
+      </div>
+      <div class="footer-menu">
+        <ul class="f-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about_us.html">About</a></li>
+        </ul>
+      </div>
     </div>
+  </footer>
+  <script>
+    const doSomething = getIP();
 
-</footer>
-<script>
-  const doSomething = getIP();
-
-async function getIP(){
-    
-    const element_ip = document.getElementById("vd_ip") || new HTMLElement();
-    const promise = await fetch("https://ipinfo.io/json");
-    const data = await promise.json();
-    element_ip.innerHTML = data.ip + " | " + data.city + " | " + data.country ;
-    return data;
-}
-</script>
-  
+    async function getIP() {
+      const element_ip = document.getElementById("vd_ip") || new HTMLElement();
+      const promise = await fetch("https://ipinfo.io/json");
+      const data = await promise.json();
+      element_ip.innerHTML = data.ip + " | " + data.city + " | " + data.country;
+      return data;
+    }
+  </script>
 </html>

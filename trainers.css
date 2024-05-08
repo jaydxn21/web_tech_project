@@ -157,6 +157,12 @@ article img {
   gap: 24px;
 }
 
+@media (max-width: 768px) {
+  article {
+    max-width: 90%;
+  }
+}
+
 footer {
   /* position: absolute; */
   bottom: 0;

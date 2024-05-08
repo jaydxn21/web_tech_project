@@ -91,26 +91,27 @@ html {
 
 body {
   padding-bottom: 10%;
+
   background-image: linear-gradient(rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.553)),
     url(images/wome-n-gym-running-treadmill_23-2148419901.jpg);
   background-size: cover;
   background-position: top center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  /* background-attachment: fixed;
+  background-repeat: no-repeat; */
 }
 
+.form-container {
+  display: flex;
+  justify-content: center;
+}
 /* CSS FOR REGISTRATION FORM*/
 /* Style for the form box */
+
 .form-box {
   max-width: 350px;
-  width: 90%;
   background: white;
-  position: absolute;
-  padding: 0px 35px 25px;
   border-radius: 10px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -42%);
+  padding: 5px 20px 35px 25px;
   text-align: center;
 }
 
@@ -166,7 +167,7 @@ body {
   outline: 0;
   padding: 15px;
   border-radius: 5px;
-  width: 350px;
+  width: 300px;
   height: 50px;
 }
 
