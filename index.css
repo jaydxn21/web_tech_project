@@ -220,7 +220,7 @@ header {
   border-radius: 20px;
   box-shadow: 0 0 6px rgba(0, 64, 128, 0.817);
   width: 500px;
-  height: 380px;
+  height: 470px;
   margin: 8.5vh auto 0;
   left: 50;
   transform: translateX(-60%);
@@ -286,7 +286,7 @@ header {
   border-radius: 20px;
   box-shadow: 0 0 6px rgba(0, 64, 128, 0.817);
   width: 500px;
-  height: 380px;
+  height: 435px;
   margin: 8.5vh auto 0;
   right: 0;
   transform: translateX(60%);
@@ -353,7 +353,7 @@ header {
   border-radius: 20px;
   box-shadow: 0 0 6px rgba(0, 64, 128, 0.817);
   width: 500px;
-  height: 360px;
+  height: 430px;
   margin: 8.5vh auto 0;
   left: 50;
   transform: translateX(-60%);
@@ -422,7 +422,7 @@ footer {
   flex-direction: column;
   text-align: center;
   padding: 20px 0;
-  height: 100px;
+  height: 40px;
  }
 
 .footer-content h3 {
@@ -446,7 +446,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem 0 3rem 0;
+  margin: 1rem 0 3rem 0;  
 }
 .socials li {
   margin: 0 10px;
@@ -456,7 +456,6 @@ footer {
   color: #fff;
   border: 1.1px solid white;
   padding: 5px;
-
   border-radius: 50%;
 }
 .socials a i {
