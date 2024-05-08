@@ -224,6 +224,13 @@ body {
 }
 
 /*TIME */
+
+.align-middle{
+  font-family: poppins;
+  color: white;
+  font-weight: 320;
+}
+
 .font-size14 {
   font-size: 14px;
   color: white;
@@ -232,6 +239,7 @@ body {
 .text-light-gray {
   color: #ffffff;
 }
+
 .font-size13 {
   font-size: 13px;
 }
