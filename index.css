@@ -218,7 +218,7 @@ header {
 }
 
 .transparent-box {
-  background-color: rgba(60, 60, 60, 0.5);
+  background-color: rgba(60, 60, 60, 0.641);
   padding: 30px;
   border-radius: 20px;
   box-shadow: 0 0 6px rgba(0, 64, 128, 0.817);
@@ -233,7 +233,7 @@ header {
   font-size: 15px;
   line-height: 1.5;
   color: white;
-  font-weight: 250;
+  font-weight: 300;
   font-family: poppins;
 }
 
@@ -284,7 +284,7 @@ header {
 }
 
 .transparent-box2 {
-  background-color: rgba(60, 60, 60, 0.5);
+  background-color:  rgba(60, 60, 60, 0.641);
   padding: 30px;
   border-radius: 20px;
   box-shadow: 0 0 6px rgba(0, 64, 128, 0.817);
@@ -299,7 +299,7 @@ header {
   font-size: 15px;
   line-height: 1.5;
   color: white;
-  font-weight: 250;
+  font-weight: 300;
   font-family: poppins;
 }
 
@@ -351,7 +351,7 @@ header {
 }
 
 .transparent-box3 {
-  background-color: rgba(60, 60, 60, 0.5);
+  background-color: rgba(60, 60, 60, 0.641);
   padding: 30px;
   border-radius: 20px;
   box-shadow: 0 0 6px rgba(0, 64, 128, 0.817);
@@ -366,7 +366,7 @@ header {
   font-size: 15px;
   line-height: 1.5;
   color: white;
-  font-weight: 250;
+  font-weight: 300;
   font-family: poppins;
 }
 
