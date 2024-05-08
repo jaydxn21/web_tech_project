@@ -115,6 +115,16 @@ body {
   text-align: center;
 }
 
+.form-box h1{
+  font-size: 30px;
+  font-weight:700;
+  font-family:poppins;
+  color: #ffba3c;
+  position: relative;
+  padding-top: 25px;
+  text-align: center;
+}
+
 /* Style for the form title */
 #title {
   font-size: 30px;

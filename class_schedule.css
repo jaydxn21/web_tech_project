@@ -247,7 +247,8 @@ body {
   border-top: 1px solid #ffffff;
 }
 .registration {
-  padding-bottom: 90px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .registration button {
@@ -262,10 +263,11 @@ body {
   background-color: transparent;
   /* position: absolute; */
   bottom: 5%;
-  margin-left: 35%;
-  margin-right: 100px;
+  margin-left: 50%;
+  margin-right: 50%;
   justify-content: center;
   cursor: pointer;
+  margin-top: 20px;
 }
 
 .registration button:hover {
