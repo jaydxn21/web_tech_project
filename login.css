@@ -238,6 +238,24 @@ form p a {
   z-index: 1;
 }
 
+#gotoSignup{
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding */
+  cursor: pointer; /* Cursor style */
+  border-radius: 5px; /* Rounded corners */
+}
+
+#gotoSignup:hover {
+  background-color: #0056b3; /* Darker blue background color on hover */
+}
+
+#gotoSignup:focus {
+  outline: none; /* Remove outline on focus */
+}
+
+
 /* .dropdown {
   float: left;
   overflow: hidden;
