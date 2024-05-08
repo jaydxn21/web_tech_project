@@ -514,6 +514,10 @@ footer {
   .nav-links {
     flex-direction: column;
   }
+  .logo_img {
+    width: 40px;
+    height: 40px;
+  }
   .nav-links a {
     float: none;
     text-align: center;
