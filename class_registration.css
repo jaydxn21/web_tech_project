@@ -96,7 +96,7 @@ body {
     url(images/wome-n-gym-running-treadmill_23-2148419901.jpg);
   background-size: cover;
   background-position: top center;
-  /* background-attachment: fixed;
+  background-attachment: fixed;
   background-repeat: no-repeat; */
 }
 
@@ -123,6 +123,7 @@ body {
   position: relative;
   padding-top: 25px;
   text-align: center;
+  
 }
 
 /* Style for the form title */
@@ -234,6 +235,7 @@ footer {
   width: 100vw;
   padding-top: 40px;
   color: #fff;
+  margin: 50px;
 }
 .footer-content {
   display: flex;
@@ -270,7 +272,6 @@ footer {
   color: #fff;
   border: 1.1px solid white;
   padding: 5px;
-
   border-radius: 50%;
 }
 .socials a i {
