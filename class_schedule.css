@@ -91,6 +91,7 @@ html {
   padding: 0%;
   margin: 0;
   height: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -99,6 +100,7 @@ body {
     url(images/front-view-people-training-together-gym_23-2150289964.jpg);
   background-size: cover;
   background-position: top center;
+
   /* background-attachment: fixed; */
   /* background-repeat: no-repeat; */
 }
@@ -276,6 +278,7 @@ body {
   justify-content: center;
   cursor: pointer;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .registration button:hover {
@@ -284,14 +287,18 @@ body {
 
 footer {
   /* position: absolute; */
+  
   bottom: 0;
   left: 0;
   right: 0;
   background: #111;
   height: auto;
-  width: 100vw;
+  width: 100%;
   padding-top: 40px;
+  padding-bottom: -70px;
   color: #fff;
+  z-index: 100;
+  background: contain;
 }
 .footer-content {
   display: flex;
@@ -347,6 +354,7 @@ footer {
   padding: 20px;
   padding-bottom: 40px;
   text-align: center;
+  margin-top: 20px;
 }
 .footer-bottom p {
   float: left;
