@@ -91,13 +91,11 @@ html {
 
 body {
   padding-bottom: 10%;
-
-  background-image: linear-gradient(rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.553)),
-    url(images/wome-n-gym-running-treadmill_23-2148419901.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.553)),url(images/wome-n-gym-running-treadmill_23-2148419901.jpg);
   background-size: cover;
   background-position: top center;
   background-attachment: fixed;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat; 
 }
 
 .form-container {
