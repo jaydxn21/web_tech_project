@@ -82,6 +82,7 @@ header {
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 body,
@@ -101,6 +102,7 @@ body {
 .form-container {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 /* CSS FOR REGISTRATION FORM*/
 /* Style for the form box */
@@ -111,6 +113,7 @@ body {
   border-radius: 10px;
   padding: 5px 20px 35px 25px;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .form-box h1{
@@ -224,16 +227,18 @@ form p a {
   background-color: #ffba3c;
 }
 footer {
-  /* position: absolute; */
+
   bottom: 0;
   left: 0;
   right: 0;
   background: #111;
   height: auto;
-  width: 100vw;
+  width: 100%;
   padding-top: 40px;
+  padding-bottom: -70px;
   color: #fff;
-  margin: 50px;
+  z-index: 100;
+  background: contain;
 }
 .footer-content {
   display: flex;
@@ -288,6 +293,7 @@ footer {
   padding: 20px;
   padding-bottom: 40px;
   text-align: center;
+  margin-top: 20px;
 }
 .footer-bottom p {
   float: left;
